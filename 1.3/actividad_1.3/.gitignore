@@ -1,0 +1,67 @@
+# Entorno virtual
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos compilados
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+
+# Base de datos SQLite
+db.sqlite3
+db.sqlite3-journal
+
+# Variables de entorno
+.env
+
+# Archivos de Django
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Cobertura de pruebas
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Archivos temporales
+*.tmp
+*.bak
