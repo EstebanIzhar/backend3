@@ -1,0 +1,54 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos compilados
+*.so
+
+# Distribución
+build/
+dist/
+*.egg-info/
+
+# Base de datos
+db.sqlite3
+db.sqlite3-journal
+
+# Variables de entorno
+.env
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Archivos de cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Migraciones (opcional)
+# **/migrations/*
+# !**/migrations/__init__.py
+
+# Archivos temporales
+*.swp
+*.swo
+
+# Media y archivos estáticos (opcional)
+media/
+staticfiles/
