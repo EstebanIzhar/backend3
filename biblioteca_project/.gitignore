@@ -1,0 +1,34 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Base de datos SQLite local (para no subir datos de prueba ni usuarios)
+*.sqlite3
+*.sqlite3-journal
+
+# Byte-compiled / archivos ejecutados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración del Entorno y Secretos
+.env
+.venv
+local_settings.py
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos estáticos y media subidos en local
+/static/
+/media/
+.history/
