@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Base de datos local (contiene datos de prueba)
+*.sqlite3
+*.db
+
+# Archivos compilados e temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+.history
